@@ -1,0 +1,40 @@
+.jclass : {
+
+color:red;
+border:green;
+
+}
+
+.newclass : {
+
+	color: red;
+	border: :yellow;
+}
+
+.customed
+{
+	background-color: #DCDCDC !important;
+	border-radius: 10px;
+}
+.container-fluid h1
+{
+  text-align: center;
+  text-decoration: underline;
+
+}
+h3
+{
+  text-decoration: underline;
+}
+table td
+{
+  width: auto;
+  padding: 5px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}

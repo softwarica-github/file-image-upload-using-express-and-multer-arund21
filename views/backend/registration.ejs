@@ -1,0 +1,67 @@
+<% include partials/header%>
+<body>
+<form class="form-horizontal" action="/admin/registration" enctype="multipart/form-data" method="POST">
+    <div id="legend">
+      <legend class="">Type your details</legend>
+    </div>
+    <div class="control-group">
+      <!-- Username -->
+      <label class="control-label"  for="fullname">Full-Name</label>
+      <div class="controls">
+        <input type="text" id="fullname" name="fullname" placeholder="Full name" class="input-xlarge">
+      </div>
+    </div>
+    <div class="control-group">
+      <!--dob -->
+      <label class="control-label" for="dob">Date of Birth</label>
+      <div class="controls">
+        <input type="Date" id="dob" name="dob" placeholder="" class="input-xlarge">
+      </div>
+    </div>
+    <div class="control-group">
+      <!-- nationality-->
+      <label class="control-label" for="nationality">Nationality</label>
+      <div class="controls">
+        <input type="text" id="nationality" name="nationality" placeholder="Nationality" class="input-xlarge">
+      </div>
+    </div>
+    <div class="control-group">
+      <!--Religion-->
+      <label class="control-label" for="religion"> Religion</label>
+      <div class="controls">
+        <input type="text" id="religion" name="religion" placeholder="Religion" class="input-xlarge">
+      </div>
+    </div>
+    <div class="control-group">
+      <!--Gender -->
+      <label class="control-label" for="gender">Gender</label>
+      <div class="controls">
+        <input type="text" id="gender" name="gender" placeholder="Gender" class="input-xlarge">
+      </div>
+    </div>
+    <div class="control-group">
+      <!-- Mobile-->
+      <label class="control-label" for="mobile">Mobile</label>
+      <div class="controls">
+        <input type="text" id="mobile" name="mobile" placeholder="Mobile" class="input-xlarge">
+      </div>
+    </div>
+    <div class="control-group">
+      <!--Email-->
+      <label class="control-label" for="email">Email</label>
+      <div class="controls">
+        <input type="text" id="Email" name="Email" placeholder="Email" class="input-xlarge">
+      </div>
+    </div>
+
+ 
+
+
+     <label>Upload your photo</label>
+    <input type="file" id="usrphoto" name="usrphoto" class="form-control input-md" multiple>
+      <!-- Button -->
+</br>
+        <button class="btn btn-success">Register</button>
+</form>
+</body>
+<% include partials/footer%>
